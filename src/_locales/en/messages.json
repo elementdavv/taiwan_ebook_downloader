@@ -1,0 +1,5 @@
+{
+    "description": { "message": "Download PDF ebooks from Taiwan eBook database"}
+    , "title": { "message": "Taiwan eBook database Downloader" }
+    , "download": { "message": "Download " }
+}

@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3
+    , "author": "Element Davv <elementdavv@hotmail.com>"
+    , "description": "__MSG_description__"
+    , "homepage_url": "https://github.com/elementdavv/taiwan_ebook_downloader"
+    , "name": "Taiwan eBook Downloader"
+    , "version": "0.1.0"
+    , "default_locale": "en"
+    , "browser_specific_settings": {
+        "gecko": {
+            "id": "taiwan_ebook_downloader@timelegend.net"
+        }
+    }
+    , "icons": {
+        "128": "images/logo128.png"
+    }
+    , "action": {
+        "default_icon": {
+            "128": "images/logo128.png"
+        }
+        , "default_title": "__MSG_title__"
+    }
+    , "background": {
+        "scripts": ["js/bg.js"]
+        , "type": "module"
+    }
+    , "permissions": [
+        "scripting"
+        , "tabs"
+    ]
+    , "host_permissions": [
+        "https://taiwanebook.ncl.edu.tw/*"
+    ]
+    , "web_accessible_resources": [{
+        "resources": [
+            "js/*"
+        ]
+        , "matches": ["https://taiwanebook.ncl.edu.tw/*"]
+    }]
+}

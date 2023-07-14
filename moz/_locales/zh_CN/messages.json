@@ -1,0 +1,5 @@
+{
+    "description": { "message": "从台湾华文电子书库下载 PDF 电子书"}
+    , "title": { "message": "台湾华文电子书库下载器" }
+    , "download": { "message": "下载 " }
+}
